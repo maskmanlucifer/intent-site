@@ -1,2 +1,2 @@
-# intent
-A slow productivity app.
+# Intent
+A slow productivity app 😴.
