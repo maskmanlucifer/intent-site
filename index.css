@@ -35,6 +35,8 @@ body {
     margin: 0 auto;
     max-width: 70%;
     min-width: 60%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .hero-image svg {
@@ -197,5 +199,9 @@ body {
 
     .feature-list {
         grid-template-columns: 1fr;
+    }
+
+    .main {
+        height: auto;
     }
 }
