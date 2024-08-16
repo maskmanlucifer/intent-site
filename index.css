@@ -135,7 +135,7 @@ body {
 }
 
 .download-extension-btn:hover {
-    cursor: pointer;
+    cursor: not-allowed;
     border-color: var(--blue);
     opacity: 0.9;
 }
