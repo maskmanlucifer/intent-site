@@ -4,7 +4,6 @@ const Home = () => {
   return (
     <div className='main'>
 
-    <div className="home-container">
         <div className="hero-image">
             <svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_39_14)">
@@ -290,7 +289,6 @@ const Home = () => {
             <span className="action">Download chrome extension (Beta)</span>
         </a>
         <div className="footer"><span>Have a <span className="green">nice</span> day mate 🤛</span></div>
-    </div>
     </div>
   );
 };
