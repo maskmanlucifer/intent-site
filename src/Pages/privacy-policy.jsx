@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
     <path d="M22 12.9999C19.5434 11.7724 15.9734 10.9999 12 10.9999C8.02658 10.9999 4.45659 11.7724 2 12.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M19 11.4999L17.9425 4.71233C17.7268 3.32807 16.2232 2.578 15.0093 3.24907L14.3943 3.58903C12.9019 4.414 11.0981 4.414 9.60574 3.58903L8.99074 3.24907C7.77676 2.578 6.27318 3.32808 6.05751 4.71233L5 11.4999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 </svg></h1>
-      <div className="meta-data">
+      <div className="block">
 
       <p className="effective-date">
         <strong>Effective date:</strong> 5 January 2025
@@ -91,12 +91,10 @@ const PrivacyPolicy = () => {
         <li>Improve our product and services.</li>
         <li>Protect against fraud and enhance security.</li>
         <li>
-          Communicate with you about bug reports, support inquiries, or general
-          updates.
+        Communicate with you regarding bugs, support, or updates.
         </li>
         <li>
-          Send you product updates or marketing communications (if you’ve opted
-          in).
+        Send product updates or marketing (if opted in).
         </li>
       </ul>
       </div>

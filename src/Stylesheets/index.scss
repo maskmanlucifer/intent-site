@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 
 * {
     margin: 0;
@@ -213,13 +211,14 @@ body {
     margin: auto;
     padding-top: 30px;
     padding-bottom: 10px;
-    font-family: "Roboto", serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
 
     > h1 {
       display: flex;
       align-items: center;
       gap: 10px;
+      margin-left: 10px;
 
       svg {
         color: #199153;
@@ -227,7 +226,7 @@ body {
     }
 
     ul {
-      margin-left: 36px;
+      margin-left: 20px;
     }
     
     .meta-data {
@@ -237,6 +236,10 @@ body {
       .effective-date {
         margin-bottom: 8px;
       }
+    }
+
+    .meta-data {
+      padding: 20px;
     }
 
     .block {
