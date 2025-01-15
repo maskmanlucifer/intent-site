@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+import "../Stylesheets/index.scss";
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>intent</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
+const Home = () => {
+  return (
+    <div className='main'>
 
-<body>
-    <div class="main">
-        <div class="hero-image">
+    <div className="home-container">
+        <div className="hero-image">
             <svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_39_14)">
                     <path
@@ -185,12 +179,12 @@
                 </defs>
             </svg>
         </div>
-        <span class="heading">Intent</span>
-        <span class="sub-heading">A slow productivity app.</span>
-        <span class="feature-heading">What <i class="light-italic">Intent</i> offers to you</span>
-        <div class="feature-list">
-            <div class="feature green-bg">
-                <div class="header">
+        <span className="heading">Intent</span>
+        <span className="sub-heading">A slow productivity app.</span>
+        <span className="feature-heading">What <i className="light-italic">Intent</i> offers to you</span>
+        <div className="feature-list">
+            <div className="feature green-bg">
+                <div className="header">
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M44 24C44 12.9543 35.0456 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0456 12.9543 44 24 44C35.0456 44 44 35.0456 44 24Z"
@@ -198,16 +192,16 @@
                         <path d="M16 25L21 30L32 18" stroke="#1A73E8" stroke-width="3" stroke-linecap="round"
                             stroke-linejoin="round" />
                     </svg>
-                    <span class="heading"><b>Task Management</b></span>
+                    <span className="heading"><b>Task Management</b></span>
                 </div>
-                <div class="description">
+                <div className="description">
                     Easily organize your tasks by creating to-do items and breaking them down into
                     manageable subtasks. This feature helps you keep track of all your tasks in one place, ensuring
                     nothing falls through the cracks.
                 </div>
             </div>
-            <div class="feature purple-bg">
-                <div class="header">
+            <div className="feature purple-bg">
+                <div className="header">
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M24 16V24L27 27" stroke="#D97706" stroke-width="3" stroke-linecap="round"
                             stroke-linejoin="round" />
@@ -219,32 +213,32 @@
                             stroke="#D97706" stroke-width="3" stroke-linecap="round" />
                     </svg>
 
-                    <span class="heading"><b>Time Blocking</b></span>
+                    <span className="heading"><b>Time Blocking</b></span>
                 </div>
-                <div class="description">
+                <div className="description">
                     Efficiently plan your day by allocating specific time blocks for each task. Whether you
                     want to schedule a task for later or block out a focused work period, this feature helps you
                     manage your time effectively.
                 </div>
             </div>
-            <div class="feature pink-bg">
-                <div class="header">
+            <div className="feature pink-bg">
+                <div className="header">
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z"
                             stroke="#229342" stroke-width="3" stroke-linejoin="round" />
                     </svg>
-                    <span class="heading"><b>Focus Mode</b></span>
+                    <span className="heading"><b>Focus Mode</b></span>
                 </div>
-                <div class="description">
+                <div className="description">
                     Eliminate distractions and stay on task with Focus Mode. This feature hides unnecessary
                     sidebars and keeps your current task front and centre, helping you maintain concentration and
                     productivity.
                 </div>
             </div>
-            <div class="feature yellow-bg">
-                <div class="header">
-                    <span class="logo"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+            <div className="feature yellow-bg">
+                <div className="header">
+                    <span className="logo"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M24 44V18" stroke="#E33B2E" stroke-width="3" stroke-linecap="round"
                                 stroke-linejoin="round" />
@@ -259,16 +253,16 @@
                                 stroke-linejoin="round" />
                         </svg>
                     </span>
-                    <span class="heading"><b>Take proper breaks</b></span>
+                    <span className="heading"><b>Take proper breaks</b></span>
                 </div>
-                <div class="description">
+                <div className="description">
                     Take timely breaks with gentle reminders at the end of your scheduled tasks. This
                     feature encourages you to rest and recharge, ensuring you stay productive without burning
                     out.
                 </div>
             </div>
         </div>
-        <a class="download-extension-btn" onclick="()=>{}" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <a className="download-extension-btn" href="https://chromewebstore.google.com/detail/bapldbpdhjohehmbpjchkadkbjndhjdd" target="_blank" rel="noreferrer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_45_85)">
                     <path
@@ -293,19 +287,12 @@
                     </clipPath>
                 </defs>
             </svg>
-            <span class="action">Download chrome extension (coming soon)</span>
+            <span className="action">Download chrome extension (Beta)</span>
         </a>
-        <div class="footer"><span>Have a <span class="green">nice</span> day mate 🤛</span>
-            <!-- <a class="email" target="_blank" href="mailto:maskmanlucifer@gmail.com">
-                maskmanlucifer@gmail.com
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.5 7.5L6 18" stroke="currentColor" stroke-linecap="round" />
-                    <path d="M8 6.18791C8 6.18791 16.0479 5.50949 17.2692 6.73079C18.4906 7.95209 17.812 16 17.812 16"
-                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-            </a> -->
-        </div>
+        <div className="footer"><span>Have a <span className="green">nice</span> day mate 🤛</span></div>
     </div>
-</body>
+    </div>
+  );
+};
 
-</html>
+export default Home;
