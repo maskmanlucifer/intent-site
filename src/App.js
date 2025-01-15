@@ -5,10 +5,10 @@ import PrivacyPolicy from './Pages/privacy-policy';
 
 function App() {
   return (
-           <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-           </Routes>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+    </Routes>
   );
 }
 
