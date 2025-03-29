@@ -191,12 +191,10 @@ const Home = () => {
                         <path d="M16 25L21 30L32 18" stroke="#1A73E8" stroke-width="3" stroke-linecap="round"
                             stroke-linejoin="round" />
                     </svg>
-                    <span className="heading"><b>Task Management</b></span>
+                    <span className="heading"><b>Manage Task & Notes</b></span>
                 </div>
                 <div className="description">
-                    Easily organize your tasks by creating to-do items and breaking them down into
-                    manageable subtasks. This feature helps you keep track of all your tasks in one place, ensuring
-                    nothing falls through the cracks.
+                Effortlessly organize your tasks by creating to-do items and breaking them down into manageable subtasks. Plus, add notes to keep all your ideas and details
                 </div>
             </div>
             <div className="feature purple-bg">
@@ -212,12 +210,10 @@ const Home = () => {
                             stroke="#D97706" stroke-width="3" stroke-linecap="round" />
                     </svg>
 
-                    <span className="heading"><b>Time Blocking</b></span>
+                    <span className="heading"><b>Schedule Management</b></span>
                 </div>
                 <div className="description">
-                    Efficiently plan your day by allocating specific time blocks for each task. Whether you
-                    want to schedule a task for later or block out a focused work period, this feature helps you
-                    manage your time effectively.
+                Efficiently manage your day by viewing your calendar events and receiving reminders for upcoming tasks. Stay on top of your schedule with helpful event notifications, ensuring you never miss an important task.
                 </div>
             </div>
             <div className="feature pink-bg">
@@ -230,9 +226,7 @@ const Home = () => {
                     <span className="heading"><b>Focus Mode</b></span>
                 </div>
                 <div className="description">
-                    Eliminate distractions and stay on task with Focus Mode. This feature hides unnecessary
-                    sidebars and keeps your current task front and centre, helping you maintain concentration and
-                    productivity.
+                Boost productivity with Focus Mode. This feature eliminates distractions by keeping your current task front and center. Plus, enjoy the added support of music in a new tab to enhance your concentration.
                 </div>
             </div>
             <div className="feature yellow-bg">
@@ -255,9 +249,7 @@ const Home = () => {
                     <span className="heading"><b>Take proper breaks</b></span>
                 </div>
                 <div className="description">
-                    Take timely breaks with gentle reminders at the end of your scheduled tasks. This
-                    feature encourages you to rest and recharge, ensuring you stay productive without burning
-                    out.
+                Take timely breaks with gentle reminders throughout your day. This feature encourages you to rest and recharge, helping you stay productive without burning out.
                 </div>
             </div>
         </div>
@@ -288,7 +280,7 @@ const Home = () => {
             </svg>
             <span className="action">Download chrome extension (Beta)</span>
         </a>
-        <div className="footer"><span>Have a <span className="green">nice</span> day mate 🤛</span></div>
+        <div className="footer"><span>Built by <a href="https://maskmanlucifer.github.io/lucifer/">maskmanlucifer</a></span> <a href="https://discord.gg/aEbKn8HW">Join discord</a></div>
     </div>
   );
 };
