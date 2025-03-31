@@ -280,7 +280,7 @@ const Home = () => {
             </svg>
             <span className="action">Download chrome extension (Beta)</span>
         </a>
-        <div className="footer"><span>Built by <a href="https://maskmanlucifer.github.io/lucifer/">maskmanlucifer</a></span> <a href="https://discord.gg/aEbKn8HW">Join discord</a></div>
+        <div className="footer"><span>Built by <a href="https://maskmanlucifer.github.io/lucifer/" rel="noreferrer" target="_blank">maskmanlucifer</a></span> <a href="https://discord.gg/aEbKn8HW" rel="noreferrer" target="_blank">Join discord</a></div>
     </div>
   );
 };
