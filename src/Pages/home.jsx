@@ -179,7 +179,7 @@ const Home = () => {
             </svg>
         </div>
         <span className="heading">Intent</span>
-        <span className="sub-heading">A slow productivity app.</span>
+        <span className="sub-heading">Your All-in-One Productivity Hub</span>
         <span className="feature-heading">What <i className="light-italic">Intent</i> offers to you</span>
         <div className="feature-list">
             <div className="feature green-bg">
@@ -199,22 +199,16 @@ const Home = () => {
             </div>
             <div className="feature purple-bg">
                 <div className="header">
-                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M24 16V24L27 27" stroke="#D97706" stroke-width="3" stroke-linecap="round"
-                            stroke-linejoin="round" />
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
-                            d="M39.0908 32.9068C42.3636 34.674 44 35.5578 44 37C44 38.4422 42.3636 39.326 39.0908 41.0932L36.8622 42.2968C34.3488 43.654 33.0922 44.3326 32.4878 43.8392C31.008 42.6308 33.3134 39.5122 33.8806 38.4074C34.4554 37.288 34.445 36.6918 33.8806 35.5926C33.3134 34.4878 31.008 31.3692 32.4878 30.1608C33.0922 29.6674 34.3488 30.346 36.8622 31.7032L39.0908 32.9068Z"
-                            stroke="#D97706" stroke-width="3" />
-                        <path
-                            d="M26.0522 43.896C25.3776 43.9648 24.6928 44 24 44C12.9543 44 4 35.0456 4 24C4 12.9543 12.9543 4 24 4C35.0456 4 44 12.9543 44 24C44 25.3698 43.8622 26.7076 43.6 28"
-                            stroke="#D97706" stroke-width="3" stroke-linecap="round" />
+                            d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z"
+                            stroke="#229342" stroke-width="3" stroke-linejoin="round" />
                     </svg>
 
-                    <span className="heading"><b>Schedule Management</b></span>
+                    <span className="heading"><b>Inspiration Management</b></span>
                 </div>
                 <div className="description">
-                Efficiently manage your day by viewing your calendar events and receiving reminders for upcoming tasks. Stay on top of your schedule with helpful event notifications, ensuring you never miss an important task.
-                </div>
+                Quickly save webpages, images, and articles while browsing, building your own personal library of ideas and resources.                </div>
             </div>
             <div className="feature pink-bg">
                 <div className="header">
@@ -278,9 +272,9 @@ const Home = () => {
                     </clipPath>
                 </defs>
             </svg>
-            <span className="action">Download chrome extension (Beta)</span>
+            <span className="action">Download chrome extension</span>
         </a>
-        <div className="footer"><span>Built by <a href="https://maskmanlucifer.github.io/lucifer/" rel="noreferrer" target="_blank">maskmanlucifer</a></span> <a href="https://github.com/maskmanlucifer/intent" rel="noreferrer" target="_blank">Github</a></div>
+        <div className="footer"><span>By <a href="https://maskmanlucifer.github.io/lucifer/" rel="noreferrer" target="_blank">maskmanlucifer</a></span> <a href="https://github.com/maskmanlucifer/intent" rel="noreferrer" target="_blank">Github</a></div>
     </div>
   );
 };
