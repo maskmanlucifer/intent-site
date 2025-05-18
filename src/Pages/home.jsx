@@ -217,14 +217,6 @@ const LandingPage = () => {
             </div>
             <div className="footer-links">
               <a
-                href="/privacy-policy"
-                className="footer-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Privacy Policy
-              </a>
-              <a
                 href="https://github.com/maskmanlucifer/intent"
                 className="footer-link"
                 target="_blank"
