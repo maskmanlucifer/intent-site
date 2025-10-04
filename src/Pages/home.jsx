@@ -9,7 +9,6 @@ const LandingPage = () => {
     "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-05-18%20at%206.51.48%E2%80%AFAM.png",
     "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-05-18%20at%207.25.52%E2%80%AFAM.png",
     "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-05-18%20at%207.23.53%E2%80%AFAM.png",
-    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-05-18%20at%207.26.52%E2%80%AFAM.png",
   ];
 
   const handleNext = () => {
@@ -84,10 +83,9 @@ const LandingPage = () => {
       <section className="hero">
         <div className="container">
           <div className="tag">Boost Your Productivity</div>
-          <h1>Your All-in-One Productivity Hub</h1>
+          <h1>Your Simple Productivity Hub</h1>
           <p>
-            Manage tasks, focus deeply, take breaks, and save inspirations — all
-            from your new tab.
+            Manage your todos and save important links — all from your new tab.
           </p>
           <div className="cta-group">
             <a
@@ -169,9 +167,9 @@ const LandingPage = () => {
       {/* Features Section */}
       <section id="features" className="features">
         <div className="container">
-          <h2 className="section-title">Everything you need, in one place</h2>
+          <h2 className="section-title">Simple and focused</h2>
           <p className="section-subtitle">
-            Designed to help you stay focused and productive
+            Essential productivity tools without the clutter
           </p>
           <div className="features-grid">
             {features.map((feature, i) => (
@@ -189,9 +187,9 @@ const LandingPage = () => {
       <section className="cta">
         <div className="container">
           <div className="cta-card">
-            <h2 className="cta-title">Ready to transform your productivity?</h2>
+            <h2 className="cta-title">Ready to simplify your productivity?</h2>
             <p className="cta-subtitle">
-              Join users who have improved their focus and efficiency with Intent.
+              Join users who stay organized with todo management and link saving.
             </p>
             <a
               href="https://chromewebstore.google.com/detail/bapldbpdhjohehmbpjchkadkbjndhjdd"
@@ -266,95 +264,6 @@ const features = [
           fillRule="evenodd"
           clipRule="evenodd"
           d="M7.25 7C7.25 6.58579 7.58579 6.25 8 6.25H12C12.4142 6.25 12.75 6.58579 12.75 7C12.75 7.41421 12.4142 7.75 12 7.75H8C7.58579 7.75 7.25 7.41421 7.25 7ZM7.25 11C7.25 10.5858 7.58579 10.25 8 10.25H16C16.4142 10.25 16.75 10.5858 16.75 11C16.75 11.4142 16.4142 11.75 16 11.75H8C7.58579 11.75 7.25 11.4142 7.25 11ZM7.25 15C7.25 14.5858 7.58579 14.25 8 14.25H16C16.4142 14.25 16.75 14.5858 16.75 15C16.75 15.4142 16.4142 15.75 16 15.75H8C7.58579 15.75 7.25 15.4142 7.25 15Z"
-          fill="#28303F"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Focus Mode with Music",
-    description:
-      "Boost your productivity with built-in music widget and focus mode.",
-    icon: (
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <circle opacity="0.4" cx="12" cy="12" r="10" fill="#28303F" />
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 7.75C9.65279 7.75 7.75 9.65279 7.75 12C7.75 14.3472 9.65279 16.25 12 16.25C14.3472 16.25 16.25 14.3472 16.25 12C16.25 9.65279 14.3472 7.75 12 7.75ZM6.25 12C6.25 8.82436 8.82436 6.25 12 6.25C15.1756 6.25 17.75 8.82436 17.75 12C17.75 15.1756 15.1756 17.75 12 17.75C8.82436 17.75 6.25 15.1756 6.25 12Z"
-          fill="#28303F"
-        />
-        <circle cx="12" cy="12" r="1" fill="#28303F" />
-      </svg>
-    ),
-  },
-  {
-    title: "Daily Calendar",
-    description:
-      "See your schedule at a glance and never miss important events.",
-    icon: (
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          opacity="0.4"
-          d="M3 9H21V18C21 20.2091 19.2091 22 17 22H7C4.79086 22 3 20.2091 3 18V9Z"
-          fill="#28303F"
-        />
-        <path
-          d="M17 3.5H7C4.79086 3.5 3 5.29086 3 7.5V9H21V7.5C21 5.29086 19.2091 3.5 17 3.5Z"
-          fill="#28303F"
-        />
-        <path
-          opacity="0.4"
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M8 1.25C8.41421 1.25 8.75 1.58579 8.75 2V5C8.75 5.41421 8.41421 5.75 8 5.75C7.58579 5.75 7.25 5.41421 7.25 5V2C7.25 1.58579 7.58579 1.25 8 1.25ZM16 1.25C16.4142 1.25 16.75 1.58579 16.75 2V5C16.75 5.41421 16.4142 5.75 16 5.75C15.5858 5.75 15.25 5.41421 15.25 5V2C15.25 1.58579 15.5858 1.25 16 1.25Z"
-          fill="#28303F"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Break Reminders",
-    description:
-      "Gentle notifications to take breaks and maintain your wellbeing.",
-    icon: (
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          opacity="0.4"
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M6.71505 17.4174C7.03681 17.6783 7.08619 18.1506 6.82534 18.4723L3.58263 22.4723C3.32178 22.7941 2.84948 22.8435 2.52772 22.5826C2.20596 22.3218 2.15657 21.8495 2.41742 21.5277L5.66014 17.5277C5.92098 17.206 6.39328 17.1566 6.71505 17.4174ZM17.2848 17.4174C17.6066 17.1566 18.0789 17.2059 18.3397 17.5277L21.5826 21.5277C21.8435 21.8495 21.7941 22.3218 21.4723 22.5826C21.1506 22.8435 20.6783 22.7941 20.4174 22.4723L17.1746 18.4723C16.9137 18.1506 16.9631 17.6783 17.2848 17.4174Z"
-          fill="#28303F"
-        />
-        <path
-          opacity="0.4"
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M7.88383 1.6997C8.04979 2.07921 7.87667 2.5214 7.49715 2.68736C5.50681 3.55772 3.81588 4.98821 2.62463 6.77986C2.39529 7.12478 1.92975 7.21849 1.58482 6.98915C1.2399 6.75981 1.14619 6.29427 1.37553 5.94934C2.72454 3.92041 4.63941 2.29988 6.89617 1.31302C7.27568 1.14706 7.71787 1.32018 7.88383 1.6997ZM16.1163 1.6997C16.2823 1.32018 16.7245 1.14706 17.104 1.31302C19.3607 2.29988 21.2756 3.92041 22.6246 5.94934C22.854 6.29427 22.7603 6.75981 22.4153 6.98915C22.0704 7.21849 21.6049 7.12478 21.3755 6.77985C20.1843 4.98821 18.4934 3.55772 16.503 2.68736C16.1235 2.5214 15.9504 2.07921 16.1163 1.6997Z"
-          fill="#28303F"
-        />
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 22C16.9706 22 21 17.9706 21 13C21 8.02944 16.9706 4 12 4C7.02944 4 3 8.02944 3 13C3 17.9706 7.02944 22 12 22ZM12.4995 8.97205C12.4995 8.59215 12.1637 8.28418 11.7495 8.28418C11.3353 8.28418 10.9995 8.59215 10.9995 8.97205V13.5579C10.9995 13.7879 11.1248 14.0026 11.3335 14.1302L14.3335 15.9645C14.6781 16.1753 15.1438 16.0899 15.3735 15.7738C15.6033 15.4577 15.5102 15.0306 15.1655 14.8199L12.4995 13.1897V8.97205Z"
           fill="#28303F"
         />
       </svg>
