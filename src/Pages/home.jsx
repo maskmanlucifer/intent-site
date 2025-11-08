@@ -6,11 +6,12 @@ import Logo from "../assets/logo.png";
 const LandingPage = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
-    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.20.27%E2%80%AFPM.png",
-    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.21.22%E2%80%AFPM.png",
-    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.20.05%E2%80%AFPM.png",
-    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.21.45%E2%80%AFPM.png",
-    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.23.19%E2%80%AFPM.png",
+    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.20.27%E2%80%AFPM.png?updatedAt=1762589862266",
+    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.21.22%E2%80%AFPM.png?updatedAt=1762589819401",
+    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.21.45%E2%80%AFPM.png?updatedAt=1762589906786",
+    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.23.08%E2%80%AFPM.png?updatedAt=1762589844984",
+    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.20.05%E2%80%AFPM.png?updatedAt=1762589922106",
+    "https://ik.imagekit.io/dnz8iqrsyc/Screenshot%202025-11-08%20at%201.21.12%E2%80%AFPM.png?updatedAt=1762589878577"
   ];
 
   const handleNext = () => {
