@@ -433,7 +433,7 @@ nav {
   background-color: white;
   text-align: left;
   overflow: hidden;
-  height: 530px;
+  height: 515px;
 }
 
 /* Features Section */
@@ -666,21 +666,3 @@ footer {
   color: var(--text-light);
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.25rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
-  .section-title {
-    font-size: 1.75rem;
-  }
-
-  .cta-title {
-    font-size: 1.75rem;
-  }
-}
