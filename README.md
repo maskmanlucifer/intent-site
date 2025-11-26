@@ -1,2 +1,2 @@
 # [Intent](https://maskmanlucifer.github.io/intent-site/)
-A slow productivity app 😴.
+A slow productivity app 😴
