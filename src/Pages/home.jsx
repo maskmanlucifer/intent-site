@@ -216,26 +216,11 @@ const LandingPage = () => {
                 Intent
               </div>
             </div>
-            <div className="footer-links">
-              <a
-                href="https://github.com/maskmanlucifer/intent"
-                className="footer-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-              <span className="footer-built-by">
-                Built by{" "}
-                <a
-                  href="https://maskmanlucifer.github.io/lucifer/"
-                  className="footer-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  maskmanlucifer
-                </a>
+            <div className="footer-built-with">
+              <span className="footer-built-with__icon" aria-hidden="true">
+                🗂️
               </span>
+              Your new tab, made purposeful
             </div>
           </div>
         </div>
